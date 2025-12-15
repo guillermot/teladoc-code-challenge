@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{836831CB-4DD2-4CB5-ACD8-EA4E902C46D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{38B7817F-B8C7-44FF-A852-362FDC3280E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teladoc.WebApi", "src\Teladoc.WebApi\Teladoc.WebApi.csproj", "{A07FEA18-F535-483C-AD9C-A3C1A12B5F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teladoc.Services", "src\Teladoc.Services\Teladoc.Services.csproj", "{01C24AB3-7A0C-4EC6-B304-8097C84F2626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teladoc.DataAccess", "src\Teladoc.DataAccess\Teladoc.DataAccess.csproj", "{2E42498A-4112-44EA-BD24-3C224D25C8E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teladoc.Tests", "test\Teladoc.Tests\Teladoc.Tests.csproj", "{F9B4226D-75DC-4CB7-B5B0-FB4164194C1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A07FEA18-F535-483C-AD9C-A3C1A12B5F3C} = {836831CB-4DD2-4CB5-ACD8-EA4E902C46D9}
+		{01C24AB3-7A0C-4EC6-B304-8097C84F2626} = {836831CB-4DD2-4CB5-ACD8-EA4E902C46D9}
+		{2E42498A-4112-44EA-BD24-3C224D25C8E4} = {836831CB-4DD2-4CB5-ACD8-EA4E902C46D9}
+		{F9B4226D-75DC-4CB7-B5B0-FB4164194C1A} = {38B7817F-B8C7-44FF-A852-362FDC3280E6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A07FEA18-F535-483C-AD9C-A3C1A12B5F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07FEA18-F535-483C-AD9C-A3C1A12B5F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07FEA18-F535-483C-AD9C-A3C1A12B5F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07FEA18-F535-483C-AD9C-A3C1A12B5F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C24AB3-7A0C-4EC6-B304-8097C84F2626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C24AB3-7A0C-4EC6-B304-8097C84F2626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C24AB3-7A0C-4EC6-B304-8097C84F2626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C24AB3-7A0C-4EC6-B304-8097C84F2626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E42498A-4112-44EA-BD24-3C224D25C8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E42498A-4112-44EA-BD24-3C224D25C8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E42498A-4112-44EA-BD24-3C224D25C8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E42498A-4112-44EA-BD24-3C224D25C8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B4226D-75DC-4CB7-B5B0-FB4164194C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B4226D-75DC-4CB7-B5B0-FB4164194C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B4226D-75DC-4CB7-B5B0-FB4164194C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B4226D-75DC-4CB7-B5B0-FB4164194C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

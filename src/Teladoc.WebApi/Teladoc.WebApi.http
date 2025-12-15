@@ -1,0 +1,6 @@
+@Teladoc.WebApi_HostAddress = http://localhost:5091
+
+GET {{Teladoc.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
